@@ -1,0 +1,48 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+
+.container{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    padding-top: 24px;
+    gap: 12px;
+
+}
+
+.form > button{
+    padding: 4px 6px 4px 6px;
+}
+.form > input{
+    padding: 4px 8px 4px 8px;
+    width: 320px;
+}
+
+.todos{
+    padding: 12px 4px 12px 4px;
+}
+.todo-item{
+    display: flex;
+    gap: 12px;
+    background-color: #f0f0f0;
+    margin: 20px 0 20px 0;
+    padding: 12px 8px 12px 8px;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+
+}
+
+.todo-item> p{
+    width: 272px;
+}
+
+.btn-edit{
+padding: 1px 4px 1px 4px;
+}
+.btn-delete{
+padding: 1px 4px 1px 4px;
+}
