@@ -86,12 +86,15 @@ cursor: pointer;
 /* Main Content Section */
 .main-content {
     padding: 40px 20px;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
-    align-items: center;
-    height: calc(100vh - 130px);
-}
 
+    height: calc(100vh - 130px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
 .space {
     width: 80%;
     height: 400px;
